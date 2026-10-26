@@ -26,6 +26,16 @@ class InputHandler:
     def kill_enemy(self):
         self.entityhandler.delete_instance(self.enemy)
 
+    def move(self):
+        direction = input("Where to move?").strip().lower()
+        match direction:
+            case "w":
+                self.map.move_up()
+            case "s":
+                self.map.move_down()
+            case _:
+                print("not moving")
+
     def chest_open(self):
         if self.map == None:
             print("You're not in the dungeon")

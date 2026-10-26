@@ -1,8 +1,9 @@
-# Change to adjust editfiles.indent_obj()
+# Global constants
+
 FLOOR = 15 # Line in notpad, top two lines are name and hp, adds 1 in notepad
 INDENT = 50 # Multipy by " " to get indentations, how far right the image goes
 
-# indexes for File
+# Indexes for File
 TEXT_FILE = 0
 FOLDERS = 1
 
