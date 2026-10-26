@@ -95,10 +95,10 @@ OPEN_LEFT_HORIZONTAL_FILES = ["openlefthorizontal.txt", HORIZONTAL_FOLDER]
     # Entities
 MAP_ENTITIES_FOLDER = MAP_FOLDER + "entities" 
 
-MAP_PLAYER = ["player.txt", MAP_ENTITIES_FOLDER]
-MAP_PLAYER_ON = ["playeron.txt", MAP_ENTITIES_FOLDER]
-MAP_ENEMY = ["enemy.txt", MAP_ENTITIES_FOLDER]
-MAP_DEAD_CHARACTER = ["deadcharacter.txt", MAP_ENTITIES_FOLDER]
+MAP_PLAYER = "O"
+MAP_PLAYER_ON = "0"
+MAP_ENEMY = "*"
+MAP_DEAD_CHARACTER = "X"
 
 # MetaData -> from first line of text files
 
