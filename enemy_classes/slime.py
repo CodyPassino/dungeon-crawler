@@ -3,7 +3,7 @@ import constants
 
 class Slime(Enemy):
 
-    def __init__(self, main_hand = None, off_hand = None, name = None):
+    def __init__(self, main_hand = constants.FIST, off_hand = constants.FIST, name = None):
     
             self.max_health = 25
             self.health = self.max_health
