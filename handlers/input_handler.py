@@ -32,7 +32,7 @@ class InputHandler:
         else:
             item_found = self.map.chest_open()
 
-            if item_found:
+            if "NAME" in item_found: # Confirms the returned item is an item
                 question = f"You have found {item_found["NAME"]} do you wish to store it?"
                 yes = my_input.y_n(question)
 
@@ -41,7 +41,7 @@ class InputHandler:
                 else:
                     print(f"{item_found["NAME"]} has been left near the chest")
             else:
-                print("There are no chests in sight")
+                print(item_found["NO_CHEST_TEXT"])
         
 
         

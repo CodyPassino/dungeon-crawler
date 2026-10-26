@@ -3,8 +3,8 @@ import random
 
 class ChestHandler():
     def __init__(self, floor, pos):
-        self.floor = floor
-        self.pos = pos
+        self.FLOOR = floor
+        self.POS = pos
         self.opened = False
         self.item = self.set_item()
 

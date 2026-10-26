@@ -13,11 +13,11 @@ def main():
 
     input_handler.enter_dungeon()
     
-'''
+
     while True:
         #input_handler.q_attack(input("Do you wish to attack? y/n"))
         input_handler.chest_open()
-'''
+
 if __name__ == '__main__':
     main()
 

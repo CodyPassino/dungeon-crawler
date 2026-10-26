@@ -182,3 +182,7 @@ CONSUMABLES_CHANCE = 50     # %
 CHEST_WEAPONS = [CLUB, SWORD, LONG_SWORD, SHEILD]
 CHEST_CONSUMABLES = [SMALL_HEAL, LARGE_HEAL]
 
+    # No chest nearby txt
+NO_CHEST_NEARBY = {
+    "NO_CHEST_TEXT": "No chest in sight, need to be on chest to open it"
+}
