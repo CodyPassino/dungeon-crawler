@@ -1,0 +1,4 @@
+HAND_HEIGHT
+
+- Only line 1 is metadata
+- If HAND_HEIGHT == 0, no weapon displayed
