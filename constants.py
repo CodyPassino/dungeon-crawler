@@ -119,13 +119,18 @@ META_MAPS = {
     "OBJ_HEIGHT": 1
 }
 # Items
-
+    # Desctiption of keys
+'''
+    TYPE: kind of item
+    NAME: item's name
+'''
     # Weapons
 FIST = {
     "TYPE": "weapon",
     "NAME": "hand",
     "DAMAGE": 5,
     "BLOCK": 0,
+    "CHEST_PROBABILITY": 0,
     "FILES": FIST_FILES
 }
 CLUB = {
@@ -133,6 +138,7 @@ CLUB = {
     "NAME":"club",
     "DAMAGE": 10,
     "BLOCK": 5,
+    "CHEST_PROBABILITY": 0,
     "FILES": CLUB_FILES
 }
 SWORD = {
@@ -140,6 +146,7 @@ SWORD = {
     "NAME":"sword",
     "DAMAGE": 20,
     "BLOCK": 10,
+    "CHEST_PROBABILITY": 0,
     "FILES": SWORD_FILES
 }
 LONG_SWORD = {
@@ -147,6 +154,7 @@ LONG_SWORD = {
     "NAME":"long sword",
     "DAMAGE": 40,
     "BLOCK": 20,
+    "CHEST_PROBABILITY": 0,
     "FILES": LONG_SWORD_FILES
 }
 SHEILD = {
@@ -154,6 +162,7 @@ SHEILD = {
     "NAME":"sheild",
     "DAMAGE": 0,
     "BLOCK": 10,
+    "CHEST_PROBABILITY": 0,
     "FILES": SHEILD_FILES 
 }
 
@@ -163,6 +172,7 @@ SMALL_HEAL = {
     "NAME":"small heal",
     "EFFECT_STRENGTH": .25,
     "USES": 1,
+    "CHEST_PROBABILITY": 0,
     "FILES": SMALL_HEAL_FILES 
 }
 LARGE_HEAL = {
@@ -170,6 +180,7 @@ LARGE_HEAL = {
     "NAME":"large heal",
     "EFFECT_STRENGTH": .5,
     "USES": 1,
+    "CHEST_PROBABILITY": 0,
     "FILES": LARGE_HEAL_FILES 
 }
 
