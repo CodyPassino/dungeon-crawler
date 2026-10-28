@@ -2,7 +2,7 @@ from .map_event_handler import MapEventHandler
 import file_manager
 
 # Map creation 
-class MapHandler():
+class MapCreationHandler():
     def __init__(self):
         self.events = MapEventHandler()
 

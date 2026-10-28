@@ -1,7 +1,7 @@
 import constants
 import my_input
 from .entity_handler import EntityHandler
-from .map_handler import MapHandler
+from .map_creation_handler import MapCreationHandler
 from player import Player
 from enemy_classes import *
 
@@ -15,7 +15,7 @@ class InputHandler:
         self.enemy = self.entityhandler.spawn_instance(Slime, constants.FIST, constants.FIST)
         
     def enter_dungeon(self):
-        self.map = MapHandler() # Makes the map
+        self.map = MapCreationHandler() # Makes the map
 
     def q_attack(self, request):
         if request == "y":
